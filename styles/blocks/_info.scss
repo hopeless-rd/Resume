@@ -1,0 +1,21 @@
+@use '../helpers' as *;
+
+.info {
+
+    &-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0.5rem;
+      }
+     &-item {
+        display: flex;
+        flex-direction: column;
+
+        &__link {
+            @include hover {
+                color: var(--color-hover);
+            }
+        }
+    }
+}
