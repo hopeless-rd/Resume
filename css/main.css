@@ -427,6 +427,9 @@ button[aria-label]::before {
   display: flex;
   flex-direction: column;
 }
+.info-item__link {
+  color: var(--color-blue);
+}
 @media (any-hover: hover) {
   .info-item__link:hover {
     color: var(--color-hover);
